@@ -35,25 +35,13 @@ span {
 	align-items: center;
 	margin-top: 20px;
 }
-#upper::before {
-	content: "";
-	width: 200px;
-	height: 100px;
-	background-color: #fdd11e;
-	position: absolute;
-	bottom: -30px;
-	left: 39%;
-	transform: rotate(20deg);
-}
 #upper::after {
 	content: "";
-	width: 200px;
-	height: 100px;
-	background-color: #fdd11e;
+	width: 20%;
+	height: 20%;
+	background: conic-gradient(at 50% 100%, #fdd11e 67.4deg, transparent 67.4deg 292.6deg, #fdd11e 292.6deg);
 	position: absolute;
-	bottom: -30px;
-	left: 49%;
-	transform: rotate(-20deg);
+	bottom: -10%;
 }
 #lower {
 	background-color: #ff555a;
